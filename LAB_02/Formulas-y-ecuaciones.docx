@@ -1,0 +1,26 @@
+const uint8_t PIN_PWM = 9;
+const float FRECUENCIA_HZ = 2.0;
+const unsigned long INTERVALO_MS = 5;
+
+unsigned long tiempoPrevio = 0;
+
+void setup() {
+  pinMode(PIN_PWM, OUTPUT);
+  Serial.begin(115200);
+}
+
+void loop() {
+  unsigned long tiempoActual = millis();
+
+  if (tiempoActual - tiempoPrevio >= INTERVALO_MS) {
+    tiempoPrevio = tiempoActual;
+
+    float t = tiempoActual / 1000.0;
+
+    int valorPWM = (int)(127.5 * 
+      (1.0 + sin(2.0 * PI * FRECUENCIA_HZ * t)));
+
+    analogWrite(PIN_PWM, valorPWM);
+    Serial.println(valorPWM);
+  }
+}
