@@ -2,7 +2,7 @@
 
 ## Simulación del Osciloscopio y Detección de Etapas sEMG
 
-![Simulación sEMG](simulacion_semg.gif)
+<img width="1000" height="550" alt="Simulación sEMG" src="https://github.com/user-attachments/assets/9cfeb1f2-b473-4815-a584-a5c936e19ad9" />
 
 ## Video del Experimento
 
