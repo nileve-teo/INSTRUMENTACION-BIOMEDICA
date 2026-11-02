@@ -9,3 +9,13 @@
 https://github.com/user-attachments/assets/ff8234a9-fd60-4695-8d16-c1a1680274b8
 
 [Ver respaldo en Google Drive](https://drive.google.com/file/d/1q4AosdLApj5gA-8NEE1ibeqrL8j1KvLO/view?usp=sharing)
+
+ ### Evidencias del Laboratorio
+
+![Codificación en el IDE](https://raw.githubusercontent.com/nileve-teo/IMAGENS/main/Codificacion_IDE.jpeg)
+
+![Configuración del Protoboard](https://raw.githubusercontent.com/nileve-teo/IMAGENS/main/Prot3%20_configuraci%C3%B3n.jpeg)
+
+![Prueba en Funcionamiento](https://raw.githubusercontent.com/nileve-teo/IMAGENS/main/Prot3_funciono.jpeg)
+
+![Señal en Osciloscopio](https://raw.githubusercontent.com/nileve-teo/IMAGENS/main/osciloscopio3.jpeg)
