@@ -1,0 +1,1 @@
+Desarrollo del Laboratorio N.° 4 de Instrumentación Biomédica I: extracción de la envolvente de una señal sEMG simulada. Incluye el código fuente para generar la señal mediante ESP32, el montaje del circuito de rectificación de precisión y filtrado RC, así como las evidencias experimentales de las etapas de acondicionamiento y obtención de la envolvente.
