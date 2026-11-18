@@ -92,13 +92,16 @@ Se intercaló un capacitor cerámico de **$100\text{ nF}$** en serie entre `GPIO
 Con la señal centrada en $0\text{ V}$, se verificó el recorte de semiciclos negativos en $V_R$ ($2\text{ ms/div}$) y se midió la envolvente resultante $V_E$ mediante cursores en cada tramo de la secuencia completa ($2\text{ s/div}$).
 
 * **Niveles medidos de $V_E$ por tramo:**
-  * **Tramo 1 — Reposo (0 – 5 s):** $V_E \approx 200\text{ mV}$ (nivel basal constante).
-  * **Tramo 2 — Cierre de mano (5 – 10 s):** $V_{E,\text{máx}} \approx 1.07\text{ V}$ (pico inicial) y nivel sostenido elevado en el resto del tramo.
-  * **Tramo 3 — Extensión del índice (10 – 15 s):** Escalón intermedio claramente diferenciable respecto al reposo y al cierre de mano.
+  * **Tramo 1 — Reposo (0 – 5 s):** $V_E \approx 200\text{ mV}$ (nivel basal constante)[cite: 4].
+  * **Tramo 2 — Cierre de mano (5 – 10 s):** $V_{E,\text{máx}} \approx 1.07\text{ V}$ (pico inicial) y nivel sostenido elevado en el resto del tramo[cite: 4].
+  * **Tramo 3 — Extensión del índice (10 – 15 s):** Escalón intermedio claramente diferenciable respecto al reposo y al cierre de mano[cite: 4].
+
+* **Evidencia:**
+
+> 🎥 **Registro de envolvente $V_E$ con acoplamiento AC (Etapa D):** [Ver captura/grabación en Google Photos](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipOx0t31DjrU3ObBoyPQESon_wIOFUEQwWhfNzIK?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn)
 
 * **Análisis de la etapa:**
-  Tras eliminar el *offset* DC, el rectificador de precisión elimina los semiciclos negativos ($V_R = 0\text{ V}$ cuando $V_{IN} < 0\text{ V}$) sin caída de tensión por umbral de diodo, permitiendo que el filtro pasa-bajos RC ($f_c \approx 1.59\text{ Hz}$) extraiga una envolvente lineal limpia y proporcional a la intensidad de contracción muscular.
-
+  Tras eliminar el *offset* DC, el rectificador de precisión elimina los semiciclos negativos ($V_R = 0\text{ V}$ cuando $V_{IN} < 0\text{ V}$) sin caída de tensión por umbral de diodo, permitiendo que el filtro pasa-bajos RC ($f_c \approx 1.59\text{ Hz}$) extraiga una envolvente lineal limpia y proporcional a la intensidad de contracción muscular[cite: 4].
 ---
 
 ## 5. Evidencias experimentales adicionales
