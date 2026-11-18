@@ -1,4 +1,3 @@
-
 # Laboratorio 04: Instrumentación Biomédica I
 
 ## Extracción de la envolvente de una señal sEMG simulada
@@ -24,18 +23,17 @@ Obtener la envolvente de una señal sEMG simulada mediante etapas de rectificaci
 Se utiliza el ESP32 para reproducir la señal sEMG simulada mediante su salida DAC. Esta señal constituye la entrada para las etapas posteriores de acondicionamiento.
 
 ![Montaje del simulador sEMG](imagenes/montaje_general.jpg)
+*Pie de imagen: [Ver video del funcionamiento y montaje del simulador sEMG](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipNxO0_Rj69rjVSDuEO5cn5kDmwT-yixhfqbSEnA?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn)*
+
+![Señal sEMG generada](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipNxO0_Rj69rjVSDuEO5cn5kDmwT-yixhfqbSEnA?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn)
 
 ### 3.2. Etapa de rectificación
 
 Se implementa el circuito rectificador para obtener una señal de polaridad positiva a partir de la señal sEMG original.
 
-![Etapa de rectificación](imagenes/etapa_rectificacion.jpg)
-
 ### 3.3. Etapa de filtrado
 
 La señal rectificada pasa por un filtro pasa-bajos RC, que permite atenuar las variaciones rápidas y obtener una señal más suave, correspondiente a la envolvente.
-
-![Etapa de filtrado](imagenes/etapa_filtrado.jpg)
 
 ### 3.4. Verificación de las señales
 
@@ -44,6 +42,14 @@ Se emplea el osciloscopio para observar y comparar las señales obtenidas en las
 ![Señal de salida](imagenes/senal_salida.png)
 
 ![Visualización en el osciloscopio](imagenes/osciloscopio.png)
+
+#### Mediciones por regiones con cursores (Vertical y Horizontal)
+
+| Región / Tramo | Medición Vertical (Amplitud) | Medición Horizontal (Tiempo) |
+|---|---|---|
+| **Inicio / Medio** | ![Medición Vertical Inicio/Medio](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipM_7sCpB5XhD6reHcDiGamND1OonVFmbmpKetPG?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) | ![Medición Horizontal Inicio/Medio](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipN8LoOvoMesAqh9g5fAkarkQ040KZYEmisJbA2T?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) |
+| **Segundo Tramo** | ![Medición Vertical Segundo Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipOoHIPTw0x-JVYgVPEmZig1sbQJEqtQ-aFWmtfQ?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) | ![Medición Horizontal Segundo Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipM6XK4q1qHHzkLeARR9m1R9HLBrRbkuokc6z6NV?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) |
+| **Último Tramo** | ![Medición Vertical Último Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipNvqvStbK5_NhUBZKjThRCaPSNZI69P8Dz1hBkW?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) | ![Medición Horizontal Último Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipNd5Srj4pRAByVIbn4C9fl9iwkvAGvR_JxnWjoN?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) |
 
 ## 4. Evidencias del laboratorio
 
@@ -56,7 +62,6 @@ Las fotografías y capturas adicionales del desarrollo experimental se encuentra
 [Repositorio de Instrumentación Biomédica](https://github.com/nileve-teo/INSTRUMENTACION-BIOMEDICA)
 
 ---
-
 **Asignatura:** Instrumentación Biomédica I  
 **Laboratorio:** N.° 4 – Extracción de la envolvente de la sEMG simulada  
 **Universidad:** Universidad Nacional Mayor de San Marcos
