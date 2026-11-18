@@ -1,4 +1,4 @@
-# Laboratorio N.° 4 — Extracción de la envolvente de la sEMG simulada
+<img width="4080" height="3060" alt="20261106_141627" src="https://github.com/user-attachments/assets/2d99da27-34b1-4c19-a449-e650be96863a" /># Laboratorio N.° 4 — Extracción de la envolvente de la sEMG simulada
 
 **Universidad Nacional Mayor de San Marcos (UNMSM)**  
 Facultad de Ingeniería Electrónica y Eléctrica — Escuela Profesional de Ingeniería Biomédica  
@@ -68,7 +68,20 @@ Se registró la señal rectificada ($V_R$) y la envolvente final ($V_E$) tras el
 
 ### Mediciones en osciloscopio por tramos (cursores vertical y horizontal)
 
-| Región / Tramo | Medición Vertical (Amplitud) | Medición Horizontal (Tiempo) |
+#### Secuencia completa de sEMG y envolvente (15 segundos)
+
+<div align="center">
+  <img width="720" alt="Secuencia completa de 15 segundos" src="https://github.com/user-attachments/assets/788507e7-11b4-4084-9562-3a65224b1011" />
+  <br>
+  <em>Captura general de los tres tramos consecutivos (15 s totales).</em>
+</div>
+
+<br>
+
+#### Detalle por tramos de actividad muscular
+
+| Tramo y actividad | Medición 1 | Medición 2 |
 | :--- | :---: | :---: |
-| **Inicio / Medio** | ![Medición Vertical Inicio/Medio](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipM_7sCpB5XhD6reHcDiGamND1OonVFmbmpKetPG?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) | ![Medición Horizontal Inicio/Medio](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipN8LoOvoMesAqh9g5fAkarkQ040KZYEmisJbA2T?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) |
-| **Segundo Tramo** | ![Medición Vertical Segundo Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipOoHIPTw0x-JVYgVPEmZig1sbQJEqtQ-aFWmtfQ?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) | ![Medición Horizontal Segundo Tramo](https://photos.google.com/share/AF1QipPYVxlqKkWmjYpuvKkVAwK1hXfqNhgdD015hPB-gud1-3zIoP1r40fK8Wqp9HBNpg/photo/AF1QipM6XK4q1qHHzkLeARR9m1R9HLBrRbkuokc6z6NV?key=RHVINVA1ZXpQUURLVHdvaVI3T0xkVUU1dFpab0xn) |
+| **Primer tramo**<br>**Reposo** | <img width="380" alt="Tramo 1 - Reposo (1)" src="https://github.com/user-attachments/assets/ce3e971e-7b3c-4406-aed5-f771693dbf34" /> | <img width="380" alt="Tramo 1 - Reposo (2)" src="https://github.com/user-attachments/assets/2b30e4fb-7021-4081-9803-66948561a352" /> |
+| **Segundo tramo**<br>**Cierre de mano** | <img width="380" alt="Tramo 2 - Cierre de mano (1)" src="https://github.com/user-attachments/assets/4351a693-8a23-4a86-adf3-c082f0800d29" /> | <img width="380" alt="Tramo 2 - Cierre de mano (2)" src="https://github.com/user-attachments/assets/d3e188b3-bc72-4f15-83c7-12d66cf9a25f" /> |
+| **Tercer tramo**<br>**Extensión del índice** | <img width="380" alt="Tramo 3 - Extensión del índice (1)" src="https://github.com/user-attachments/assets/da73be69-b273-4cb4-8e24-083402ddb7f0" /> | <img width="380" alt="Tramo 3 - Extensión del índice (2)" src="https://github.com/user-attachments/assets/b8b8252d-fa7d-4095-8506-e804ba4fa41f" /> |
