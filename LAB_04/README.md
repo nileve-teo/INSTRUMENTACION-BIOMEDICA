@@ -1,4 +1,4 @@
-<img width="4080" height="3060" alt="20261106_141627" src="https://github.com/user-attachments/assets/2d99da27-34b1-4c19-a449-e650be96863a" /># Laboratorio N.° 4 — Extracción de la envolvente de la sEMG simulada
+# Laboratorio N.° 4 — Extracción de la envolvente de la sEMG simulada
 
 **Universidad Nacional Mayor de San Marcos (UNMSM)**  
 Facultad de Ingeniería Electrónica y Eléctrica — Escuela Profesional de Ingeniería Biomédica  
