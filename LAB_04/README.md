@@ -1,8 +1,8 @@
 # Laboratorio N.° 4 — Rectificación de precisión y extracción de envolvente de señales sEMG
 
 **Curso:** Instrumentación Biomédica I  
-**Integrantes:** [Coloca aquí los nombres de los integrantes]  
-**Docente:** [Coloca aquí el nombre de la docente]  
+**Integrantes:** Condor Caruajulca Evelin-23190118  
+**Docente:** Armas Alvaraado Maria
 
 ---
 
