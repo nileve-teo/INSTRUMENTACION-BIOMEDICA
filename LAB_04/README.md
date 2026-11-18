@@ -23,7 +23,7 @@ Implementar y caracterizar una etapa analógica de acondicionamiento para señal
 ---
 
 ## 3. Estructura del repositorio
-* `Firmware/`: Código fuente del simulador sEMG en Arduino (`Simulador_sEMG.ino` y archivo de muestras `semg.h`).
+* **[`Firmware/`](./Firmware/)**: Código fuente del simulador sEMG en Arduino (`Simulador_sEMG.ino` y archivo de muestras `semg.h`).
 * `README.md`: Documentación del desarrollo experimental, mediciones por etapa y análisis de resultados.
 
 ---
